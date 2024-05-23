@@ -5,7 +5,7 @@
 ## Steps to view this assignment:
 1) Clone the repository
 # Server Setup #
-2) Inside the project server directory on your local machine, in the command line type:<br>
+2) Inside the project **server** directory on your local machine, in the command line type:<br>
 **composer install**
 3) Copy all the contents of **.env.example to .env**
 4) Run the migrations, in the command line type:<br>
@@ -14,7 +14,7 @@
 **php artisan serve**
 
 # Client Setup #
-6) Inside the project client directory on your local machine, in the command line type:<br>
+6) Inside the project **client** directory on your local machine, in the command line type:<br>
 **npm install**
 7) Running the project, in command line type:<br>
 **npm start**

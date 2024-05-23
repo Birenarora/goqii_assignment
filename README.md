@@ -22,7 +22,7 @@
 Below is the localhost URL of your backend project:
 http://127.0.0.1:8000
 
-Below is the localhost URL of your backend project:
+Below is the localhost URL of your frontend project:
 http://localhost:3000/
 
 **If this appears, Click on the generate key button & then reload the page**

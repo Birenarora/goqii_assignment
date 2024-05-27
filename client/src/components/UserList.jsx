@@ -14,7 +14,7 @@ function UserList({ users, onEdit, onDelete }) {
             </tr>
         </thead>
         <tbody>
-        {users.map((user) => {
+        {(users && users.length > 0) ? users.map((user) => {
             return (
                 <tr key={user.id}>
                     <td>{user.name}</td>
@@ -23,7 +23,7 @@ function UserList({ users, onEdit, onDelete }) {
                     <td><button onClick={() => onEdit(user)}>Edit</button><button onClick={() => onDelete(user.id)}>Delete</button></td>
                 </tr>
             )
-        })}
+        }) : <tr><td>No Data</td></tr>}
         </tbody>
       </table>
     </div>
